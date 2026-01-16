@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal portfolio of YOUR NAME — projects, skills, and contact." />
+  <title>YOUR NAME | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a class="logo" href="#top" aria-label="Home">YN</a>
+        <div class="brand-text">
+          <div class="name">Md Asef Jawad</div>
+          <div class="tagline">Network Engineering • Security • IoT</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <button id="menuBtn" class="menu-btn" aria-expanded="false" aria-controls="navLinks">
+          Menu
+        </button>
+        <div id="navLinks" class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Available for internships / research roles</p>
+          <h1>
+            Building reliable networks and secure systems.
+          </h1>
+          <p class="lead">
+            I’m <strong>YOUR NAME</strong>, focused on networking, cybersecurity, and applied ML for
+            anomaly detection. I design practical solutions that are measurable and deployable.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="#contact">Contact</a>
+            <a class="btn subtle" href="https://github.com/YOUR_GITHUB" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn subtle" href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+
+          <div class="quick-metrics">
+            <div class="metric">
+              <div class="metric-num">X+</div>
+              <div class="metric-label">Projects</div>
+            </div>
+            <div class="metric">
+              <div class="metric-num">Y</div>
+              <div class="metric-label">Years Experience</div>
+            </div>
+            <div class="metric">
+              <div class="metric-num">Z</div>
+              <div class="metric-label">Certifications</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="avatar-wrap">
+            <!-- Optional: put a photo at assets/avatar.png -->
+            <img class="avatar" src="assets/avatar.png" alt="Your profile photo" onerror="this.style.display='none'" />
+            <div class="avatar-fallback" aria-hidden="true">YN</div>
+          </div>
+          <div class="hero-card-body">
+            <h2 class="card-title">Highlights</h2>
+            <ul class="bullets">
+              <li>AI-driven anomaly detection for SDN/data center security</li>
+              <li>IoT systems (ESP/NodeMCU) with lightweight remote monitoring</li>
+              <li>6G security research interests (trust, resilience, adversarial AI)</li>
+            </ul>
+
+            <div class="card-actions">
+              <a class="link" href="#skills">See skills →</a>
+              <a class="link" href="#experience">See experience →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+          <p class="muted">
+            A concise summary of who you are, what you do, and what you are seeking.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="card">
+            <h3>Bio</h3>
+            <p>
+              Write 4–6 lines about your background (education, focus areas, what you enjoy building).
+              Mention measurable strengths (e.g., “packet-level analysis”, “automation”, “security testing”).
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>What I’m working on</h3>
+            <ul class="bullets">
+              <li>Project: __________________________</li>
+              <li>Research: _________________________</li>
+              <li>Learning: _________________________</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Focus Areas</h3>
+            <div class="pill-row">
+              <span class="pill">Networking</span>
+              <span class="pill">Cybersecurity</span>
+              <span class="pill">IoT</span>
+              <span class="pill">SDN</span>
+              <span class="pill">ML for Security</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p class="muted">Showcase 3–6 projects with clear outcomes and links.</p>
+        </div>
+
+        <div class="grid">
+          <!-- Project Card 1 -->
+          <article class="card project">
+            <div class="project-top">
+              <h3>Heart Disease Risk Prediction (DT/SVM)</h3>
+              <p class="muted">
+                Built classification models with feature importance and correlation analysis.
+              </p>
+            </div>
+            <ul class="bullets">
+              <li>Methods: Decision Tree, SVM, scaling, feature analysis</li>
+              <li>Deliverable: report + metrics + plots</li>
+              <li>Result: add your best metric (e.g., accuracy/F1)</li>
+            </ul>
+            <div class="project-links">
+              <a class="btn small" href="https://github.com/YOUR_GITHUB/REPO1" target="_blank" rel="noreferrer">Repo</a>
+              <a class="btn small subtle" href="#" target="_blank" rel="noreferrer">Demo</a>
+            </div>
+          </article>
+
+          <!-- Project Card 2 -->
+          <article class="card project">
+            <div class="project-top">
+              <h3>Lightweight Home Monitoring Gateway</h3>
+              <p class="muted">
+                Minimal-data intermediary design for remote access without heavy cloud traffic.
+              </p>
+            </div>
+            <ul class="bullets">
+              <li>Focus: low overhead telemetry, controlled traffic volume</li>
+              <li>Tech: Raspberry Pi Pico / microcontrollers (edit as needed)</li>
+              <li>Result: add latency/data savings numbers if possible</li>
+            </ul>
+            <div class="project-links">
+              <a class="btn small" href="https://github.com/YOUR_GITHUB/REPO2" target="_blank" rel="noreferrer">Repo</a>
+              <a class="btn small subtle" href="#" target="_blank" rel="noreferrer">Write-up</a>
+            </div>
+          </article>
+
+          <!-- Project Card 3 -->
+          <article class="card project">
+            <div class="project-top">
+              <h3>6G Security Proposal: Adversarial AI</h3>
+              <p class="muted">
+                Proposal on AI-driven threats/mitigations for next-gen networks.
+              </p>
+            </div>
+            <ul class="bullets">
+              <li>Theme: trust, robustness, threat modeling</li>
+              <li>Scope: AI-enabled smart wireless networks</li>
+              <li>Result: list your contributions (survey, design, prototype)</li>
+            </ul>
+            <div class="project-links">
+              <a class="btn small" href="https://github.com/YOUR_GITHUB/REPO3" target="_blank" rel="noreferrer">Repo</a>
+              <a class="btn small subtle" href="#" target="_blank" rel="noreferrer">PDF</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p class="muted">Keep this concrete—tools, protocols, platforms, and methods.</p>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Networking</h3>
+            <div class="pill-row">
+              <span class="pill">TCP/IP</span>
+              <span class="pill">Routing</span>
+              <span class="pill">Wireshark</span>
+              <span class="pill">SDN</span>
+              <span class="pill">5G/6G Concepts</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Security</h3>
+            <div class="pill-row">
+              <span class="pill">Threat Modeling</span>
+              <span class="pill">Zero Trust</span>
+              <span class="pill">Anomaly Detection</span>
+              <span class="pill">AuthN/AuthZ</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Software</h3>
+            <div class="pill-row">
+              <span class="pill">Python</span>
+              <span class="pill">Linux</span>
+              <span class="pill">Git</span>
+              <span class="pill">Docker</span>
+              <span class="pill">SQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <h2>Experience</h2>
+          <p class="muted">Reverse-chronological. Use action + impact.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item card">
+            <div class="timeline-title">
+              <h3>Role Title — Company</h3>
+              <span class="muted">Month YYYY – Month YYYY</span>
+            </div>
+            <ul class="bullets">
+              <li>Did X by using Y, resulting in Z.</li>
+              <li>Improved ______ by ____% (if you have numbers).</li>
+              <li>Worked with: tools/teams/tech.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item card">
+            <div class="timeline-title">
+              <h3>Role Title — Company</h3>
+              <span class="muted">Month YYYY – Month YYYY</span>
+            </div>
+            <ul class="bullets">
+              <li>Did X by using Y, resulting in Z.</li>
+              <li>Delivered ______ (report, dashboard, tool, etc.).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Use email + socials. (Avoid publishing phone number if you prefer privacy.)</p>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Email</h3>
+            <p><a class="link" href="mailto:YOUR_EMAIL">YOUR_EMAIL</a></p>
+            <p class="muted">Typical response time: 24–48 hours.</p>
+          </div>
+
+          <div class="card">
+            <h3>Links</h3>
+            <ul class="bullets">
+              <li><a class="link" href="https://github.com/YOUR_GITHUB" target="_blank" rel="noreferrer">GitHub</a></li>
+              <li><a class="link" href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noreferrer">LinkedIn</a></li>
+              <li><a class="link" href="#" target="_blank" rel="noreferrer">Google Scholar / ResearchGate (optional)</a></li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Download</h3>
+            <p class="muted">Add your resume PDF to the repo and link it here.</p>
+            <a class="btn small" href="assets/Resume.pdf" target="_blank" rel="noreferrer">Resume (PDF)</a>
+          </div>
+        </div>
+
+        <footer class="footer muted">
+          <span>© <span id="year"></span> YOUR NAME</span>
+          <span>•</span>
+          <span>Built with GitHub Pages</span>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
